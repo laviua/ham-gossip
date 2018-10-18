@@ -9,12 +9,12 @@ The term epidemic protocol is sometimes used as a synonym for a gossip protocol,
 
 GossipConfiguration:
 
-id - is a unique id for node
-host - the address this machine listens for peer connections
-port - the port to use on the default adapter on the node's machine
-gossipInterval - how often (in milliseconds) to gossip list of members to other node(s)
-cleanupInterval - timeout when node moved to dead state
-members - seed nodes
+        id - is a unique id for node
+        host - the address this machine listens for peer connections
+        port - the port to use on the default adapter on the node's machine
+        gossipInterval - how often (in milliseconds) to gossip list of members to other node(s)
+        cleanupInterval - timeout when node moved to dead state
+        members - seed nodes
 
 Example of configuration:
 
